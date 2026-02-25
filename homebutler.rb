@@ -1,28 +1,28 @@
 class Homebutler < Formula
   desc "Homelab butler in a single binary — manage servers from chat"
   homepage "https://github.com/Higangssh/homebutler"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Higangssh/homebutler/releases/download/v0.3.0/homebutler_0.3.0_darwin_arm64.tar.gz"
-      sha256 "ec3ebf52ccf77766da7e57d8e3a2bdcfdf37be16d1d35d0578a13927b41e7d89"
+      url "https://github.com/Higangssh/homebutler/releases/download/v0.4.0/homebutler_0.4.0_darwin_arm64.tar.gz"
+      sha256 "5c35d5ba3b271908f1f30cb33cb8f30f8fe0d7d5a5b9ed3d86e43529edfa8c88"
     end
     on_intel do
-      url "https://github.com/Higangssh/homebutler/releases/download/v0.3.0/homebutler_0.3.0_darwin_amd64.tar.gz"
-      sha256 "965be83c924537645becc9a3400dbcb4edd85027d4d4c1a3119a619ce89ce468"
+      url "https://github.com/Higangssh/homebutler/releases/download/v0.4.0/homebutler_0.4.0_darwin_amd64.tar.gz"
+      sha256 "39b8de38b5297f69a5032618d43bd47f045c26ffeff6890576740855697d78c0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Higangssh/homebutler/releases/download/v0.3.0/homebutler_0.3.0_linux_arm64.tar.gz"
-      sha256 "a54aa9162c8d98f34264df2247436bd37764857eb922cec8605a687849bab395"
+      url "https://github.com/Higangssh/homebutler/releases/download/v0.4.0/homebutler_0.4.0_linux_arm64.tar.gz"
+      sha256 "8d8255a0c78f9c816d705e0ee8ddb4f83eca74ed084f1893dc1da5f68c1211c6"
     end
     on_intel do
-      url "https://github.com/Higangssh/homebutler/releases/download/v0.3.0/homebutler_0.3.0_linux_amd64.tar.gz"
-      sha256 "d326253e992fc62f0ec1be8ab8b06d723d00cc8b1bf0281aa32b6898f1517809"
+      url "https://github.com/Higangssh/homebutler/releases/download/v0.4.0/homebutler_0.4.0_linux_amd64.tar.gz"
+      sha256 "5b9a8dba8d5034dd37c5c0401b655c115bd87c40732faadea8928720add6edc5"
     end
   end
 
