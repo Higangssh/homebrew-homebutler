@@ -1,28 +1,28 @@
 class Homebutler < Formula
   desc "Tells you what changed on your server, and only what is worth telling"
   homepage "https://github.com/Higangssh/homebutler"
-  version "1.1.1"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Higangssh/homebutler/releases/download/v1.1.1/homebutler_1.1.1_darwin_arm64.tar.gz"
-      sha256 "fc11bbc6b25c22537423ebf40a5dcb549ee082bd43cb371de2c9182d0b19a5aa"
+      url "https://github.com/Higangssh/homebutler/releases/download/v1.2.0/homebutler_1.2.0_darwin_arm64.tar.gz"
+      sha256 "3e63112fb8354f29eff4f3a34ed135d5b16a3ac28150e5eb36c037490f3999b2"
     end
     on_intel do
-      url "https://github.com/Higangssh/homebutler/releases/download/v1.1.1/homebutler_1.1.1_darwin_amd64.tar.gz"
-      sha256 "3edb32b5dc1c6ad03c320cb202f6f07d2fa4d8ad4363639928ce936820ad3d5b"
+      url "https://github.com/Higangssh/homebutler/releases/download/v1.2.0/homebutler_1.2.0_darwin_amd64.tar.gz"
+      sha256 "1da757e88aafeb69989572aa3cfa13c783dfb5baba8990259ba6928be0860670"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Higangssh/homebutler/releases/download/v1.1.1/homebutler_1.1.1_linux_arm64.tar.gz"
-      sha256 "dc6c8a4181f52c8123c31525f4952c9104feb225d4b580d9e9a13de7a33613e4"
+      url "https://github.com/Higangssh/homebutler/releases/download/v1.2.0/homebutler_1.2.0_linux_arm64.tar.gz"
+      sha256 "a1a67a0dc9c33a72832db0429186400f182eabad696f72be721b4ed92310a33a"
     end
     on_intel do
-      url "https://github.com/Higangssh/homebutler/releases/download/v1.1.1/homebutler_1.1.1_linux_amd64.tar.gz"
-      sha256 "6e5657d52467b5c0036a47e954593bdf22d4b63be158691381a643daabcd3780"
+      url "https://github.com/Higangssh/homebutler/releases/download/v1.2.0/homebutler_1.2.0_linux_amd64.tar.gz"
+      sha256 "a0efbb060528b7e60452c58d7c9b744aedad7fc5447fcb4451caa78951408c7f"
     end
   end
 
